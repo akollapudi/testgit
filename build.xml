@@ -72,15 +72,15 @@
     
     <target name="build-war">
 
-   <war destfile="workspace\dist\git_demo.war" webxml="workspace\build\web\WEB-INF\web.xml">
+   <war destfile="workspace/dist/git_demo.war" webxml="workspace/build/web/WEB-INF/web.xml">
    <!--Give the WebContent folder path-->
-      <fileset dir="workspace\build\web">
+      <fileset dir="workspace/build/web">
          <include name="**/*.*"/>
       </fileset>
       <!--Give the lib folder path-->
       
       <!--Give the classes folder path-->
-      <classes dir="workspace\build\web\WEB-INF\classes\comm\mss"/>
+      <classes dir="workspace/build/web/WEB-INF/classes/comm/mss"/>
    </war>
    
 </target>
