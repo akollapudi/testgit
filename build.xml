@@ -72,15 +72,15 @@
     
     <target name="build-war">
 
-   <war destfile="/var/jenkins_home/workspace/Demo/workspace/dist/git_demo.war" webxml="/var/jenkins_home/workspace/Demo/workspace/build/web/WEB-INF/web.xml">
+   <war destfile="/var/jenkins_home/workspace/Demo/dist/git_demo.war" webxml="/var/jenkins_home/workspace/Demo/build/web/WEB-INF/web.xml">
    <!--Give the WebContent folder path-->
-      <fileset dir="/var/jenkins_home/workspace/Demo/workspace/build/web">
+      <fileset dir="/var/jenkins_home/workspace/Demo/build/web">
          <include name="**/*.*"/>
       </fileset>
       <!--Give the lib folder path-->
       
       <!--Give the classes folder path-->
-      <classes dir="/var/jenkins_home/workspace/Demo/workspace/build/web/WEB-INF/classes/comm/mss"/>
+      <classes dir="/var/jenkins_home/workspace/Demo/build/web/WEB-INF/classes/comm/mss"/>
    </war>
    
 </target>
