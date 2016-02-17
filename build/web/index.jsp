@@ -15,7 +15,8 @@
         <h1>Welcome to Miracle Labs</h1>
         test modify data
         modified for test in bamboo inside build
-        Auto testing
+        Auto testing<br>
+        auto testing2
         
     </body>
 </html>
