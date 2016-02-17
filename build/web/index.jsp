@@ -14,6 +14,7 @@
     <body>
         <h1>Welcome to Miracle Labs</h1>
         test modify data
+        modified for test in bamboo inside build
         
     </body>
 </html>
