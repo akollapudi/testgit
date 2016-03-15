@@ -92,7 +92,7 @@
 
    <war destfile="/home/kheerthi900/.jenkins/workspace/Docker_Demo/dist/git_demo.war" webxml="/home/kheerthi900/.jenkins/workspace/Docker_Demo/build/web/WEB-INF/web.xml">
    <!--Give the WebContent folder path-->
-      <fileset dir="home/kheerthi900/.jenkins/workspace/Docker_Demo/build/web">
+      <fileset dir="/build/web">
          <include name="**/*.*"/>
       </fileset>
       <!--Give the lib folder path-->
