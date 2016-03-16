@@ -90,15 +90,15 @@
 
     <target name="docker">
 
-   <war destfile="/home/kheerthi900/.jenkins/workspace/Docker_Demo/dist/git_demo.war" webxml="/home/kheerthi900/.jenkins/workspace/Docker_Demo/build/web/WEB-INF/web.xml">
+   <war destfile="/home/saisasank199/.jenkins/workspace/Docker_Demo/dist/git_demo.war" webxml="/home/saisasank199/.jenkins/workspace/Docker_Demo/build/web/WEB-INF/web.xml">
    <!--Give the WebContent folder path-->
-      <fileset dir="/home/kheerthi900/.jenkins/workspace/Docker_Demo/build/web">
+      <fileset dir="/home/saisasank199/.jenkins/workspace/Docker_Demo/build/web">
          <include name="**/*.*"/>
       </fileset>
       <!--Give the lib folder path-->
       
       <!--Give the classes folder path-->
-      <classes dir="/home/kheerthi900/.jenkins/workspace/Docker_Demo/build/web/WEB-INF/classes/comm/mss"/>
+      <classes dir="/home/saisasank199/.jenkins/workspace/Docker_Demo/build/web/WEB-INF/classes/comm/mss"/>
    </war>
    
 </target>
