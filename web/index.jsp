@@ -13,8 +13,7 @@
     </head>
     <body>
         <h1>Welcome to Miracle Labs</h1>
-        test modify data
-        modified bamboo 1
+       Auto deployment using jenkins with Docker Done:-)
         
     </body>
 </html>
