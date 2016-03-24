@@ -13,12 +13,7 @@
     </head>
     <body>
         <h1>Welcome to Miracle Labs</h1>
-        test modify data
-        modified for test in bamboo inside build
-        Auto testing<br>
-        auto testing2 !!!!
-        
-        AWS with Jenkins modifications
+        Jenkins with Docker Demo
         
     </body>
 </html>
