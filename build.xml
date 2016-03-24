@@ -107,15 +107,15 @@
     
      <target name="Demo">
 
-   <war destfile="D:\thunder mails\chanakya\Bamboo\Bamboo_Home\bamboo-home\xml-data\build-dir\DEP-DTOM-JOB1\dist\git_demo.war" webxml="D:\thunder mails\chanakya\Bamboo\Bamboo_Home\bamboo-home\xml-data\build-dir\DEP-DTOM-JOB1\build\web\WEB-INF\web.xml">
+   <war destfile="C:\Users\miracle\.jenkins\workspace\was_demo\dist\git_demo.war" webxml="C:\Users\miracle\.jenkins\workspace\was_demo\build\web\WEB-INF\web.xml">
    <!--Give the WebContent folder path-->
-      <fileset dir="D:\thunder mails\chanakya\Bamboo\Bamboo_Home\bamboo-home\xml-data\build-dir\DEP-DTOM-JOB1\build\web">
+      <fileset dir="C:\Users\miracle\.jenkins\workspace\was_demo\build\web">
          <include name="**/*.*"/>
       </fileset>
       <!--Give the lib folder path-->
       
       <!--Give the classes folder path-->
-      <classes dir="D:\thunder mails\chanakya\Bamboo\Bamboo_Home\bamboo-home\xml-data\build-dir\DEP-DTOM-JOB1\build\web\WEB-INF\classes\comm\mss"/>
+      <classes dir="C:\Users\miracle\.jenkins\workspace\was_demo\build\web\WEB-INF\classes\comm\mss"/>
    </war>
    
 </target>
