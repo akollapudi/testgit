@@ -14,6 +14,7 @@
     <body>
         <h1>Welcome to Miracle Labs</h1>
        Auto deployment using jenkins with Docker Done:-)
+	   this is demo
         
     </body>
 </html>
