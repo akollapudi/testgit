@@ -12,11 +12,9 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Welcome to Miracle Labs</h1>
+        <h1>Welcome to mss</h1>
         Jenkins with Docker Demo
-        test1
-        test2
-        <br>test2
+        
         
     </body>
 </html>
