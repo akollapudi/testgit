@@ -1,5 +1,4 @@
-FROM saisasank001/tomcatlatest
+FROM websphere-liberty 
 MAINTAINER saisasank
-COPY dist/git_demo.war /maven/git_demo.war
-
-EXPOSE 8080
+COPY $PWD/server.xml /opt/ibm/wlp/usr/servers/defaultServer/server.xml
+COPY $PWD/dist/sample.war /opt/ibm/wlp/usr/servers/defaultServer/apps/sample.war 
