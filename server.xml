@@ -1,0 +1,19 @@
+<server description="Default Server">
+ 
+    <featureManager>
+        <feature>javaee-7.0</feature>
+    </featureManager>
+ 
+    <basicRegistry id="basic" realm="BasicRealm">
+        <!-- <user name="yourUserName" password="" />  -->
+    </basicRegistry>
+    <httpEndpoint id="defaultHttpEndpoint"
+                  host="*"
+                  httpPort="9080"
+                  httpsPort="9443" />
+ <application context-root="jenkinsdocker" type="war" id="jenkinsdocker"
+    location="dist/git_demo.war" name="jenkinsdocker"/>
+    <keyStore id="defaultKeyStore"
+              password="Liberty" />
+ 
+</server>
