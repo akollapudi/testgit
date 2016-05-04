@@ -20,7 +20,7 @@ var app = angular.module('myApp', []);
 app.controller('Insertion',function($scope,$http ){
     $scope.p1.Getmethod  = function() {
           alert("Get Function Called");
-                 $http.get("http://www.w3schools.com/angular/customers.php")
+                 $http.get("https://maps.googleapis.com/maps/api/geocode/json?address=london,uk")
   .then(function(response) {
       
 	  
