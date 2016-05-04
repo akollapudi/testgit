@@ -38,7 +38,8 @@ app.controller('Insertion',function($scope,$http ){
 	   $scope.p1.Postmethod = function() {
        alert("Post Function Called");
                  $http.post("https://maps.googleapis.com/maps/api/geocode/json?address=london,uk").then(function (response) {
-			$scope.temp = "temperature: "+JSON.stringify(response.data.results);
+			$scope.temp = "Latitude: "+JSON.stringify(response.data.results[0].geometry.bounds.northeast.lat);
+			  $scope.temperature = "Longitude: "+JSON.stringify(response.data.results[0].geometry.bounds.northeast.lng);
 		
   });
        };
