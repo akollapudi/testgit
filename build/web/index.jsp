@@ -37,10 +37,9 @@ app.controller('Insertion',function($scope,$http ){
 	   
 	   $scope.p1.Postmethod = function() {
        alert("Post Function Called");
-                 $http.post("https://api.beta.apim.ibmcloud.com/prasadkompalli55yahoocom/sb/weather_post_info/weather?q=Kakinada,IND&appid=0f9e50a545779bb63149670c93835e9b&client_id=da983bc5-2a20-447b-87db-d825e7989d3a").then(function (response) {
-			$scope.temp = "temperature: "+response.data.main.temp;
-			$scope.pressure = "pressure: "+ response.data.main.pressure;
-			$scope.humidity = "humidity:"+response.data.main.humidity;
+                 $http.post("https://maps.googleapis.com/maps/api/geocode/json?address=london,uk").then(function (response) {
+			$scope.temp = "temperature: "+response.data.results;
+		
   });
        };
        
