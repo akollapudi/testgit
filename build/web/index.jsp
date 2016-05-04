@@ -81,6 +81,7 @@ app.controller('Insertion',function($scope,$http ){
      
      
            <button type="submit">Get Method</button>
+           test
 		   
 			<br><br>
            {{timezone}}<br>
