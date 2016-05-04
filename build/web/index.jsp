@@ -24,7 +24,7 @@ app.controller('Insertion',function($scope,$http ){
   .then(function(response) {
       
 	  
-	  $scope.timezone = response.data.records;
+	  $scope.timezone = response.data.results;
              
   
   
