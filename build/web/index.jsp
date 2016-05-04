@@ -38,8 +38,8 @@ app.controller('Insertion',function($scope,$http ){
 	   $scope.p1.Postmethod = function() {
        alert("Post Function Called");
                  $http.post("https://maps.googleapis.com/maps/api/geocode/json?address=london,uk").then(function (response) {
-			$scope.temp = "Latitude: "+JSON.stringify(response.data.results[0].geometry.bounds.northeast.lat);
-			  $scope.temperature = "Longitude: "+JSON.stringify(response.data.results[0].geometry.bounds.northeast.lng);
+			$scope.lat = "Latitude: "+JSON.stringify(response.data.results[0].geometry.bounds.northeast.lat);
+			  $scope.long = "Longitude: "+JSON.stringify(response.data.results[0].geometry.bounds.northeast.lng);
 		
   });
        };
@@ -96,9 +96,9 @@ app.controller('Insertion',function($scope,$http ){
       
            <button type="submit">Post Method</button>
            <br><br>
-           {{temp}}<br>
-			{{pressure}}<br>
-			{{humidity}}<br>
+            {{lat}}<br>
+			{{long}}<br>
+		
     </form>
     
   </div>
