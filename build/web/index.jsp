@@ -22,11 +22,7 @@ app.controller('Insertion',function($scope,$http ){
           alert("Get Function Called");
                  $http.get("http://www.w3schools.com/angular/customers.php")
   .then(function(response) {
-      <!-- $scope.d ="<center><p>Weather Report</p><table><tr><td><b>timezone:<b></td> <td>"+ response.data.timezone+"</td></tr><tr><td><b>temperature:<b></td> <td>"+response.data.timezone+"</td></tr><tr><td><b>humidity:<b></td> <td>"+ response.data.timezone+"</td></tr></table></center>";
-	   
-	   $scope.timezone = "Latitude: "+response.data.timezone;
-	 $scope.temperature = "Longitude: "+ response.data.currently.temperature;
-	  --> 
+      
 	  
 	  $scope.timezone = response.data.records;
              
