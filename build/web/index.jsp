@@ -31,7 +31,7 @@ app.controller('Insertion',function($scope,$http ){
   
   
   });
-       };
+       }
 	   
 	   
 	   
