@@ -25,8 +25,8 @@ app.controller('Insertion',function($scope,$http ){
       
 	  
 	 
-	  $scope.timezone = response.data.results[0].geometry.bounds.northeast.lat;
-                $scope.temperature = response.data.results[0].geometry.bounds.northeast.lng;
+	  $scope.timezone = "Latitude: "+response.data.results[0].geometry.bounds.northeast.lat;
+                $scope.temperature = "Longitude: "+response.data.results[0].geometry.bounds.northeast.lng;
              
   
   
