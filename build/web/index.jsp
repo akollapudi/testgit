@@ -20,7 +20,7 @@ var app = angular.module('myApp', []);
 app.controller('Insertion',function($scope,$http ){
     $scope.p1.Getmethod  = function() {
           alert("Get Function Called");
-                 $http.get("https://api.beta.apim.ibmcloud.com/prasadkompalli55yahoocom/sb/weather_Post_Info/forecast/d98436a9cedd8fe4ce4018b7cd020d64/18.021788,83.510776")
+                 $http.get("https://maps.googleapis.com/maps/api/geocode/json?address=london,uk")
   .then(function(response) {
       <!-- $scope.d ="<center><p>Weather Report</p><table><tr><td><b>timezone:<b></td> <td>"+ response.data.timezone+"</td></tr><tr><td><b>temperature:<b></td> <td>"+response.data.timezone+"</td></tr><tr><td><b>humidity:<b></td> <td>"+ response.data.timezone+"</td></tr></table></center>";
 	   -->
