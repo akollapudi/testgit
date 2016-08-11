@@ -67,6 +67,12 @@ app.controller('Insertion',function($scope,$http ){
 
 </head>
 <body>
+
+
+<h1>Welcome to Miracle Labs</h1>
+Auto deployment using jenkins with Docker Done:-)
+this is demo
+
     
 <div ng-app="myApp" ng-controller="Insertion as p1">
 <center><p>Weather Report</p></center>
